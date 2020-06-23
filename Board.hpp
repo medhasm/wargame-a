@@ -8,6 +8,8 @@
  * @since  2020-05
  */
 
+#ifndef _BOARD__H
+#define _BOARD__H
 #include <string>
 #include <vector>
 #include <stdexcept>
@@ -49,8 +51,10 @@ class Board {
     
     //~Board()
     //{
-    //  board.clear();
+     // board.clear();
     //}
 };
 
 }
+
+#endif
